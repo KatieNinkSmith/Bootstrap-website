@@ -125,35 +125,69 @@
               <div class="progress-bar bg-danger" style="width: 42%">4</div>
             </div>
           </div>
-        </div>
-          <div class="card5 card mt-5" style="width: 18rem">
-            <div class="card-body">
-              <h2>Contact</h2>
-              <form action="#">
-                <fieldset>
-                  <legend>
-                    Please enter the information and we will contact you.
-                  </legend>
-                  <label for="contactName">
-                    Name:
-                    <input type="text" name="contactName" id="contactName" />
-                  </label>
-                  <label for="email">
-                    Email:
-                    <input type="email" name="email" id="email" />
-                  </label>
-                  <br />
-                  <label for="message">
-                    Type your message in the box below: <br />
-                    <textarea name="message" id="message" rows="5" cols="30"></textarea
-                    >
-                  </label>
-                </fieldset>
-                <input class="click" type="submit" value="send your message" />
-              </form>
-            </div>
           </div>
-      </div>
+          <div class="card5 card mt-5" style="width: 18rem">
+            <br>
+            <form>
+              <label for="inputDate"> Date Picker:
+                  <input type="date" name="inputDate" id="inputDate" />
+              </label>
+              <br />
+              <label for="userName"> Enter your name:
+                  <input type="text" name="userName" id="userName"/>
+              </label>
+              <fieldset>
+                  <legend>Have you completed:</legend>
+                  <label for="checkbox1">
+                      <input type="checkbox" name="checkbox1" id="checkbox1"/> Payments
+                  </label>
+                  <br>
+                  <label for="checkbox2">
+                      <input type="checkbox" name="checkbox2" id="checkbox2"/> Started contact and feedback
+                  </label>
+                  <br>
+                  <label for="checkbox3">
+                      <input type="checkbox" name="checkbox3" id="checkbox3"/> Completed forms
+                  </label>
+                  <br>
+                  <input type="button" name="submit" value="submit">
+              </fieldset>
+          </form>
+          <br>
+          </div>
+          <div class="card6 card mt-5" style="width: 18rem">
+          <div class="card-body">
+            <h2>Contact</h2>
+            <form action="#">
+              <fieldset>
+                <legend>
+                  Please enter the information and we will contact you.
+                </legend>
+                <label for="contactName">
+                  Name:
+                  <input type="text" name="contactName" id="contactName" style="width: 100%;"/>
+                </label>
+                <label for="email">
+                  Email:
+                  <input type="email" name="email" id="email" style="width: 100%;"/>
+                </label>
+                <br />
+                <label for="message">
+                  Type your message in the box below: <br />
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="5"
+                    cols="30"
+                    style="width: 100%;"
+                  ></textarea>
+                </label>
+              </fieldset>
+              <input class="click" type="submit" value="send your message" />
+            </form>
+          </div>
+        </div>
+        </div>
     </main>
     <footer>Produced By: Katie Nink Smith</footer>
     <script

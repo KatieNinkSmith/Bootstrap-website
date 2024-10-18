@@ -6,6 +6,7 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 50px 1fr 30px;
   height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h3 {
   color: black;
@@ -61,17 +62,48 @@ main {
   width: 30%;
   margin: 20px;
   margin-top: 50px;
+  font-family: inherit;
 }
 table {
   margin: 3px;  
 }
-.card2 {
+.card2, .card3 {
   width: 30%;
   margin: 20px;
+  font-family: inherit;
 }
-.card3 {
+.card4, .card5 {
   width: 30%;
   margin: 20px;
+  font-family: inherit;
+  padding: 10px;
+}
+#inputDate:hover {
+  background-color: white;
+}
+#userName:hover {
+  background-color: white;
+}
+.card6 {
+  width: 30%;
+  margin: 20px;
+  font-family: inherit;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+#email:hover {
+  background-color: white;
+}
+#contactName:hover{
+  background-color: white;
+}
+input:hover {
+  background-color: grey;
+}
+textarea {
+  border-radius: 5px;
 }
 .graph {
   margin: 20px;
